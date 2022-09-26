@@ -1,0 +1,107 @@
+#body{
+    
+  background-color: aliceblue;
+  background-attachment: fixed;
+}
+
+#adv {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+#adv img {
+    width: 100%;
+    height: 400px;
+
+    position: absolute;
+}
+
+#upperdiv {
+
+    background-color: black;
+    z-index: +999;
+    position: sticky;
+    height: 60px;
+    top: 0px;
+
+}
+
+#searchbox {
+
+    float: right;
+    margin-top: 15px;
+
+}
+
+#menubar-list {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: #7F0000;
+    height: 50px;
+    color: white;
+    z-index: +999;
+    position: sticky;
+    overflow: hidden;
+    list-style-type: none;
+    top: 50px;
+
+
+}
+
+#menubar-list li {
+
+    float: left;
+
+}
+
+#menubar-list li a {
+
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: 100%;
+    text-align: center;
+    display: block;
+
+}
+
+
+#menubar-list li a.active {
+
+    background-color: #33adff;
+    color: floralwhite;
+
+}
+
+#menubar-list :hover {
+    background-color: #99ccff;
+    color: floralwhite;
+}
+
+#menubar-list li:nth-child(7){
+    
+    float: right;
+    margin-right: 10px;
+    
+}
+
+
+#menubar-list li:nth-child(8){
+    
+    float: right;
+    margin-right: 10px;
+    
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    color: wheat;
+    height: 100px;
+    text-align: center;
+}
+
